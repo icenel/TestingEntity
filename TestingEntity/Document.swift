@@ -13,6 +13,8 @@ class Document: NSPersistentDocument {
     override init() {
         super.init()
         // Add your subclass-specific initialization here.
+        
+        Swift.print("entity is: \(Person.entity())")
     }
 
     override class var autosavesInPlace: Bool {
